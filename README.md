@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌊 Aqua Mbodiène - Le Plus Grand Parc Aquatique d'Afrique
 
-## Getting Started
+Bienvenue sur le dépôt officiel du projet **Aqua Mbodiène**, une plateforme web vitrine premium pour le futur plus grand parc aquatique d'Afrique, situé au Sénégal.
 
-First, run the development server:
+## 🌟 Présentation du Projet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Aqua Mbodiène est conçu pour être une destination incontournable alliant **sensations fortes, détente de luxe et respect de la nature**. Le parc s'étend sur 24 hectares au cœur d'une forêt de milliers de cocotiers. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ce projet web est la vitrine de cette ambition : un design moderne, immersif et "premium", pensé pour captiver les visiteurs et les inciter à réserver leur expérience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Fonctionnalités Clés du Site
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Design System Premium** : Interface utilisateur moderne avec effets "glassmorphism", palettes tropicales vibrantes (Cyan, Émeraude, Doré) et flous d'arrière-plan.
+- **Animations Fluides** : Intégration de `framer-motion` pour des effets d'apparition (Scroll Reveal) élégants au défilement.
+- **Sections Immersives** :
+  - *Hero Section* : Accueil plein écran avec données clés et appels à l'action.
+  - *Attractions* : Grille interactive présentant les toboggans, le simulateur de surf et le lagon corallien.
+  - *Oasis Premium* : Mise en avant de la zone VIP (Rivière lente, Cabanas).
+  - *Restauration* : Présentation du "Swim-up bar" et de la gastronomie locale.
+  - *Hébergement* : "L'Hôtel Aqua Resort" pour prolonger le séjour.
+  - *Billetterie (Pricing)* : Cartes de tarification claires (Pass Découverte, Premium, Famille).
+  - *Éco-Tech* : Engagement écologique (filtration d'eau, préservation des cocotiers, bracelets intelligents).
+- **Widget Météo** : Un indicateur flottant simulant la météo parfaite de Mbodiène pour inciter à la réservation.
 
-## Learn More
+## 🛠️ Technologies Utilisées
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework** : [Next.js](https://nextjs.org/) (App Router)
+- **UI & Composants** : React 19
+- **Styling** : CSS Vanilla (Modules) avec variables globales et design adaptatif (Responsive Design).
+- **Animations** : [Framer Motion](https://www.framer.com/motion/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Installation & Démarrage local
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Pour lancer le projet sur votre machine locale :
 
-## Deploy on Vercel
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/phata82/aqua_project.git
+   ```
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+3. Lancez le serveur de développement :
+   ```bash
+   npm run dev
+   ```
+4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Conçu avec passion pour l'innovation et le tourisme éco-responsable au Sénégal.*
