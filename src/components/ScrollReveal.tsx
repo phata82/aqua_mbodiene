@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { ReactNode } from 'react';
 
 interface ScrollRevealProps {
@@ -12,7 +12,7 @@ interface ScrollRevealProps {
 
 export default function ScrollReveal({ children, animation = 'fade-up', delay = 0, className = '' }: ScrollRevealProps) {
   
-  const variants = {
+  const variants: Variants = {
     hidden: { 
       opacity: 0, 
       y: animation === 'fade-up' ? 60 : 0,
